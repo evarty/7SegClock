@@ -1,4 +1,4 @@
-update=Fri 15 Jan 2016 07:00:45 PM EST
+update=Fri 22 Apr 2016 07:18:42 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName29=valves
 LibName30=/home/edward/Kicad/TedsComponents/TedsComponents
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
