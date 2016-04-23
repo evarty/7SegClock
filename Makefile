@@ -7,7 +7,7 @@ LDFLAGS=-Wl,-Map=$(TARGET).map -Wl,--gc-sections#linker flags
 OPT=s#optimization level: s (size), 0 (off), 1, 2, 3
 
 #Project files and output
-SRC=main.c ShiftOut.c IIC.c Timer0.c DS1307.c#C source files, including files in other folders, "library" method suported
+SRC=main.c ShiftOut.c IIC.c DS1307.c#C source files, including files in other folders, "library" method suported
 TARGET=7SegClock#name of output, change for project, or dont, doesnt matter
 OBJECTS=#object files to include, for precompiled libraries
 INC=#extra directories to search for headers, used for library headers
