@@ -1,8 +1,9 @@
-//All code is pulled pretty much directly from the datasheet
+//All code is pulled pretty much directly from the datasheet with minimal changes
 #include <avr/io.h>
 
 void TWIInit(void){
-  //set SCL to 400Khz
+  //set SCL to CPUClock/40
+  //For 1MHz clock, 25KHz
   TWSR = 0x00;
   TWBR = 0x0C;
   //enable TWI
